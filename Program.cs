@@ -8,7 +8,9 @@ namespace highRoller
         {
             Console.Clear();
             Console.WriteLine("Hi High Roller! Want to Roll the dice?");
-            Console.WriteLine(@"
+      bool rolling = true;
+      while(rolling){
+          Console.WriteLine(@"
 First we need to know the dice your playing with.
     - How many Are You playing with?
     - How many sides do they have?
@@ -29,7 +31,7 @@ First we need to know the dice your playing with.
 
       int totalRoll = 0;
       var Rand = new Random();
-      for (int i = 0; i < total-1; i++)
+      for (int i = 0; i < total; i++)
       {
         int roll = Rand.Next(sides) + 1;
         Console.WriteLine("You rolled a " + roll);
@@ -37,6 +39,27 @@ First we need to know the dice your playing with.
       }
       Console.WriteLine("\n");
       Console.WriteLine("This is the Total Roll: " + (totalRoll + mod));
+
+        bool leaving = true;
+        while (leaving){
+            Console.WriteLine("Want To Roll Again? y/n");
+            Console.Write("-");
+            char answer = Console.ReadKey().KeyChar;
+            Console.WriteLine("\n");
+            if(answer == 'n'){
+                Console.WriteLine("Thanks For Rolling With Us.");
+                rolling = false;
+                leaving = false;
+            } else if(answer == 'y') {
+                Console.WriteLine("Lets Roll Again Partner!");
+                Console.Clear();
+                leaving = false;
+            } else {
+                Console.WriteLine("Please Select A correct Key.");
+                Console.Beep();
+          }
+        }
+      }
     }
     }
 }
