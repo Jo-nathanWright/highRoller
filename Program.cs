@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace highRoller
 {
@@ -7,11 +8,17 @@ namespace highRoller
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.WriteLine("Hi High Roller! Want to Roll the dice?");
+            Console.WriteLine("Hi High Roller! Want to Roll the dice? Press Anykey to Continue, q to quit.");
+      Console.Write("-");
+      char response = Console.ReadKey().KeyChar;
+      Console.Clear();
       bool rolling = true;
       while(rolling){
-          Console.WriteLine(@"
-First we need to know the dice your playing with.
+          if(response == 'q'){
+          Console.WriteLine("Leaving So Soon?");
+          rolling = false;
+        } else {
+            Console.WriteLine(@"First we need to know the dice your playing with.
     - How many Are You playing with?
     - How many sides do they have?
     - Whats your Dice Modifier?
@@ -29,7 +36,10 @@ First we need to know the dice your playing with.
       int mod = Int32.Parse(modString);
       Console.WriteLine("\n");
 
-      int totalRoll = 0;
+          Console.WriteLine("Rolling Dice.........");
+          Thread.Sleep(5000);
+
+          int totalRoll = 0;
       var Rand = new Random();
       for (int i = 0; i < total; i++)
       {
@@ -58,6 +68,7 @@ First we need to know the dice your playing with.
                 Console.WriteLine("Please Select A correct Key.");
                 Console.Beep();
           }
+        }
         }
       }
     }
