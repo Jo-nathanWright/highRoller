@@ -36,8 +36,14 @@ namespace highRoller
       int mod = Int32.Parse(modString);
       Console.WriteLine("\n");
 
-          Console.WriteLine("Rolling Dice.........");
-          Thread.Sleep(5000);
+          Console.Write("Rolling Dice");
+          string dots = "........";
+          foreach (char c  in dots)
+          {
+            Console.Write(c);
+            Thread.Sleep(1000);
+          }
+          Console.WriteLine("\n");
 
           int totalRoll = 0;
       var Rand = new Random();
