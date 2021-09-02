@@ -1,0 +1,16 @@
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.exe
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.deps.json
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.runtimeconfig.json
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.runtimeconfig.dev.json
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.dll
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\ref\highRoller.dll
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\bin\Debug\net5.0\highRoller.pdb
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.csproj.AssemblyReference.cache
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.AssemblyInfoInputs.cache
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.AssemblyInfo.cs
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.csproj.CoreCompileInputs.cache
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.dll
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\ref\highRoller.dll
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.pdb
+C:\Program Files\Git\source\codeworks\Morning-Projects\highRoller\obj\Debug\net5.0\highRoller.genruntimeconfig.cache
